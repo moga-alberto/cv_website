@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap CSS -->
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    /> -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Alberto MOGA - CV Website</title>
+  </head>
+  <body
+    id="body"
+    class="bg-secondary"
+    data-bs-spy="scroll"
+    data-bs-target="#navbar"
+    data-bs-offset="5"
+    tabindex="0"
+  >
+    <!-- Nav -->
+    <nav class="navbar d-flex fixed-top navbar-expand bg-secondary" id="navbar">
+      <div class="container justify-content-center justify-content-lg-end p-0">
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item">
+            <a href="#portfolio" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#experience" class="nav-link">Experience</a>
+          </li>
+          <li class="nav-item"><a href="#goals" class="nav-link">Goals</a></li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <div id="top" style="position:relative; top: -40px;"></div>
+    <div class="hero container-fluid col-xxl-8 px-4 pb-5 bg-image">
+      <div class="row flex-lg-column align-items-center g-5 py-1  fade-in">
+        <div class="col-12 col-lg-3 col-xl-2">
+          <img
+            src="./images/my_portrait.bmp"
+            class="portrait d-block mx-auto img-fluid"
+          />
+        </div>
+        <div class="col-lg-9 col-xl-10">
+          <h1 class="display-5 fw-bold lh-1 mb-3 text-center">Alberto Moga</h1>
+          <p class="lead text-center">Web Development Apprentice</p>
+          <div class="row hero-buttons flex-row allign-items-center">
+            <div
+              style="width: fit-content"
+              class="
+                mx-auto
+                row
+                allign-items-center
+                justify-content-around
+                mt-2
+              "
+            >
+              <button
+                style="width: 140px"
+                class="col btn btn-secondary mx-4 p-2 text-nowrap"
+              >
+                <a
+                  class="fw-bold text-light text-decoration-none"
+                  href="./downloads/CV_Alberto_MOGA_en.pdf"
+                  download
+                >
+                  Download CV
+                </a>
+              </button>
+              <button
+                style="width: 140px"
+                class="col btn btn-secondary mx-4 p-2 text-nowrap"
+              >
+                <a
+                  class="fw-bold text-light text-decoration-none"
+                  href="#contact"
+                >
+                  Hire me
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Go to Top -->
+    <a href="#top" class="go-to-top btn btn-primary rounded px-2 py-1 float-end navbar-brand" id="go-to-top">
+        <i class="fas fa-arrow-up text-light fs-3"></i>
+    </a>
+
+    <!-- About -->
+    <div id="about" style="position:relative; top: -40px;"></div>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-lg">
+          <div class="card border-0 h-100 left-slide-in">
+            <div class="card-header bg-primary fw-bold">About me</div>
+            <div class="card-body">
+              <p class="card-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis
+                soluta est quidem temporibus quod aspernatur vitae tempore
+                recusandae laboriosam quibusdam!
+              </p>
+              <p class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Voluptatum repudiandae odio exercitationem unde, minima
+                architecto, laboriosam, ratione neque soluta facilis expedita.
+                Corrupti aliquid quidem dolore tempora laboriosam quasi beatae
+                corporis.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg mt-4 mt-lg-0">
+          <div class="card border-0 right-slide-in">
+            <div class="card-header fw-bold bg-primary">Basic Information</div>
+            <div class="card-body">
+              <ul class="list-group">
+                <li
+                  class="
+                    list-group-item
+                    d-flex
+                    justify-content-between
+                    align-items-center
+                  "
+                >
+                  <span class="fw-normal">Age:</span>
+                  <span class="badge badge bg-secondary rounded-pill fade-in">25</span>
+                </li>
+                <li
+                  class="
+                    list-group-item
+                    d-flex
+                    justify-content-between
+                    align-items-center
+                  "
+                >
+                  <span class="fw-normal">Phone:</span>
+                  <span class="btn badge badge bg-secondary rounded-pill fade-in hover-tr-act call-me" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="right" title='<i class="fas fa-2x fa-phone-square text-success"></i>'
+                    ><a
+                      class="text-decoration-none text-light"
+                      href="tel:+40769952272"
+                      >+40769952272</a
+                    ></span
+                  >
+                </li>
+                <li
+                  class="
+                    list-group-item
+                    d-flex
+                    justify-content-between
+                    align-items-center
+                  "
+                >
+                  <span class="fw-normal">Email:</span>
+                  <span class="badge badge bg-secondary rounded-pill fade-in hover-tr-act mail-me" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="right" title='<i class="fas fa-2x fa-envelope text-success"></i>'
+                    ><a
+                      class="text-decoration-none text-light"
+                      href="mailto:moga.alberto@hotmail.com"
+                      >moga.alberto@hotmail.com</a
+                    ></span
+                  >
+                </li>
+                <li
+                  class="
+                    list-group-item
+                    d-flex
+                    justify-content-between
+                    align-items-center
+                  "
+                >
+                  <span class="fw-normal">Address:</span>
+                  <span class="badge badge bg-secondary rounded-pill fade-in"
+                    >Independenței 7, Hațeg (HD), România
+                  </span>
+                </li>
+                <li
+                  class="
+                    list-group-item
+                    d-flex
+                    justify-content-between
+                    align-items-center
+                  "
+                >
+                  <span class="fw-normal">Languages:</span>
+                  <span class="badge badge bg-secondary rounded-pill fade-in"
+                    >English, Italian, French</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="card border-0 mt-4 left-slide-in">
+            <div class="card-header bg-primary fw-bold">My Skills</div>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-lg">
+                  <div class="card border-1">
+                    <div class="card-header">Technical skills</div>
+                    <div class="card-body">
+                      <p class="card-text mb-0">HTML</p>
+                      <div class="progress mb-3 rounded-pill">
+                        <div
+                          class="progress-bar rounded-pill bg-secondary wd80"
+                          role="progressbar"
+                          aria-valuenow="80"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        >80%</div>
+                      </div>
+                      <p class="card-text mb-0">CSS</p>
+                      <div class="progress mb-3 rounded-pill">
+                        <div                          
+                          class="progress-bar rounded-pill bg-secondary wd65"
+                          role="progressbar"
+                          aria-valuenow="65"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        >65%</div>
+                      </div>
+                      <p class="card-text mb-0">Javascript</p>
+                      <div class="progress mb-3 rounded-pill">
+                        <div                      
+                          class="progress-bar rounded-pill bg-secondary wd60"
+                          role="progressbar"
+                          aria-valuenow="60"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        >60%</div>
+                      </div>
+                      <p class="card-text mb-0">Bootstrap</p>
+                      <div class="progress mb-3 rounded-pill">
+                        <div                          
+                          class="progress-bar rounded-pill bg-secondary wd65"
+                          role="progressbar"
+                          aria-valuenow="65"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        >65%</div>
+                      </div>
+                      <p class="card-text mb-0">Typescript</p>
+                      <div class="progress mb-3 rounded-pill">
+                        <div                          
+                          class="progress-bar rounded-pill bg-secondary wd60"
+                          role="progressbar"
+                          aria-valuenow="60"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        >60%</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg mt-2 mt-lg-0">
+                  <div class="card border-1 h-100">
+                    <div class="card-header">Soft skills</div>
+                    <div class="card-body">
+                      <ol class="list-group list-group-numbered mt-2">
+                        <li
+                          class="
+                            list-group-item
+                            d-flex
+                            justify-content-between
+                            align-items-start
+                          "
+                        >
+                          <div class="ms-2 me-auto">
+                            <div class="fw-bold">Subheading</div>
+                            Cras justo odio
+                          </div>
+                          <span class="badge bg-primary rounded-pill">14</span>
+                        </li>
+                        <li
+                          class="
+                            list-group-item
+                            d-flex
+                            justify-content-between
+                            align-items-start
+                          "
+                        >
+                          <div class="ms-2 me-auto">
+                            <div class="fw-bold">Subheading</div>
+                            Cras justo odio
+                          </div>
+                          <span class="badge bg-primary rounded-pill">14</span>
+                        </li>
+                        <li
+                          class="
+                            list-group-item
+                            d-flex
+                            justify-content-between
+                            align-items-start
+                          "
+                        >
+                          <div class="ms-2 me-auto">
+                            <div class="fw-bold">Subheading</div>
+                            Cras justo odio
+                          </div>
+                          <span class="badge bg-primary rounded-pill">14</span>
+                        </li>
+                        <li
+                          class="
+                            list-group-item
+                            d-flex
+                            justify-content-between
+                            align-items-start
+                          "
+                        >
+                          <div class="ms-2 me-auto">
+                            <div class="fw-bold">Subheading</div>
+                            Cras justo odio
+                          </div>
+                          <span class="badge bg-primary rounded-pill">14</span>
+                        </li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio -->
+    <div id="portfolio" style="position:relative; top: -40px;"></div>
+    <div class="container mt-4">
+      <div class="card border-0 rounded right-slide-in">
+        <div class="card-header fw-bold bg-primary">Portfolio</div>
+        <div class="card-body p-0">
+          <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carousel"
+                data-bs-slide-to="0"
+                class="active bg-info"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carousel"
+                data-bs-slide-to="1"
+                class="bg-info"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carousel"
+                data-bs-slide-to="2"
+                class="bg-info"
+                aria-label="Slide 3"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carousel"
+                data-bs-slide-to="3"
+                class="bg-info"
+                aria-label="Slide 4"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carousel"
+                data-bs-slide-to="4"
+                class="bg-info"
+                aria-label="Slide 5"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carousel"
+                data-bs-slide-to="5"
+                class="bg-info"
+                aria-label="Slide 6"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="./images/jsgame.png"
+                  class="d-block w-100 rounded-bottom"
+                  alt="..."
+                />
+                <a
+                  href="https://moga-alberto.github.io/project6_js_html_css--rock_paper_scissors/"
+                >
+                  <div
+                    class="carousel-caption d-none d-md-block overlay pb-0 mb-4 fade-in"
+                  >
+                    <h5>Rock-Paper-Scissors</h5>
+                    <p>
+                      Some representative placeholder content for the first
+                      slide.
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/jsquote.png"
+                  class="d-block w-100 rounded-bottom"
+                  alt="..."
+                />
+                <a href="https://moga-alberto.github.io/quote-generator/">
+                  <div
+                    class="carousel-caption d-none d-md-block overlay pb-0 mb-4 fade-in"
+                  >
+                    <h5>Quote Generator</h5>
+                    <p>
+                      Some representative placeholder content for the first
+                      slide.
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/ngpayment.png"
+                  class="d-block w-100 rounded-bottom"
+                  alt="..."
+                />
+                <a href="https://moga-alberto.github.io/stripe-payment-v1/">
+                  <div
+                    class="carousel-caption d-none d-md-block overlay pb-0 mb-4 fade-in"
+                  >
+                    <h5>Angular Payment Integration</h5>
+                    <p>
+                      Some representative placeholder content for the first
+                      slide.
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/colors.png"
+                  class="d-block w-100 rounded-bottom"
+                  alt="..."
+                />
+                <a href="https://moga-alberto.github.io/colors/">
+                  <div
+                    class="carousel-caption d-none d-md-block overlay pb-0 mb-4 fade-in"
+                  >
+                    <h5>Colors</h5>
+                    <p>
+                      Some representative placeholder content for the first
+                      slide.
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/shoes.png"
+                  class="d-block w-100 rounded-bottom"
+                  alt="..."
+                />
+                <a href="https://angry-easley-b0b43f.netlify.app">
+                  <div
+                    class="carousel-caption d-none d-md-block overlay pb-0 mb-4 fade-in"
+                  >
+                    <h5>Great Shoes</h5>
+                    <p>
+                      Some representative placeholder content for the first
+                      slide.
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/loruki.png"
+                  class="d-block w-100 rounded-bottom"
+                  alt="..."
+                />
+                <a href="https://tender-jones-2f5b5b.netlify.app/">
+                  <div
+                    class="carousel-caption d-none d-md-block overlay pb-0 mb-4 fade-in"
+                  >
+                    <h5>Loruki</h5>
+                    <p>
+                      Some representative placeholder content for the first
+                      slide.
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Experience -->
+    <div id="experience" style="position:relative; top: -40px;"></div>
+    <div class="container mt-4">
+      <div class="card border-0 left-slide-in">
+        <div class="card-header fw-bold bg-primary">Experience</div>
+        <div class="card-body mt-3">
+          <div class="row">
+            <div class="col">
+              <div class="card mb-3 w-100 hover-tr">
+                <div class="row g-0">
+                  <div
+                    class="
+                      d-flex
+                      flex-column
+                      col
+                      align-items-center
+                      justify-content-center
+                      rounded
+                      bg-secondary-fade-in                      
+                      p-5
+                      m-3
+                    "
+                  >
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </p>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <p class="card-text">
+                        This is a wider card with supporting text below as a
+                        natural lead-in to additional content. This content is a
+                        little bit longer.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="card mb-3 w-100 hover-tr">
+                <div class="row g-0">
+                  <div
+                    class="
+                      d-flex
+                      flex-column
+                      col
+                      align-items-center
+                      justify-content-center
+                      rounded
+                      bg-secondary-fade-in
+                      p-5
+                      m-3
+                    "
+                  >
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </p>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <p class="card-text">
+                        This is a wider card with supporting text below as a
+                        natural lead-in to additional content. This content is a
+                        little bit longer.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="card mb-3 w-100 hover-tr">
+                <div class="row g-0">
+                  <div
+                    class="
+                      d-flex
+                      flex-column
+                      col
+                      align-items-center
+                      justify-content-center
+                      rounded
+                      bg-secondary-fade-in
+                      p-5
+                      m-3
+                    "
+                  >
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </p>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <p class="card-text">
+                        This is a wider card with supporting text below as a
+                        natural lead-in to additional content. This content is a
+                        little bit longer.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="card mb-3 w-100 hover-tr">
+                <div class="row g-0">
+                  <div
+                    class="
+                      d-flex
+                      flex-column
+                      col
+                      align-items-center
+                      justify-content-center
+                      rounded
+                      bg-secondary-fade-in
+                      p-5
+                      m-3
+                    "
+                  >
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </p>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <p class="card-text">
+                        This is a wider card with supporting text below as a
+                        natural lead-in to additional content. This content is a
+                        little bit longer.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Goals -->
+    <div id="goals" style="position:relative; top: -40px;"></div>
+    <div class="container mt-4">
+      <div class="card border-0 fade-in">
+        <div class="card-header fw-bold bg-primary">Goals</div>
+        <div class="card-body mt-3">
+          <div class="e-cards-container w-100">
+            <div
+              class="panel active"
+              style="
+                background-image: url('https://images.unsplash.com/photo-1558979158-65a1eaa08691?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+              "
+            >
+              <h3>Explore The World</h3>
+            </div>
+            <div
+              class="panel"
+              style="
+                background-image: url('https://images.unsplash.com/photo-1572276596237-5db2c3e16c5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+              "
+            >
+              <h3>Wild Forest</h3>
+            </div>
+            <div
+              class="panel"
+              style="
+                background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80');
+              "
+            >
+              <h3>Sunny Beach</h3>
+            </div>
+            <div
+              class="panel"
+              style="
+                background-image: url('https://images.unsplash.com/photo-1551009175-8a68da93d5f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80');
+              "
+            >
+              <h3>City on Winter</h3>
+            </div>
+            <div
+              class="panel"
+              style="
+                background-image: url('https://images.unsplash.com/photo-1549880338-65ddcdfd017b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+              "
+            >
+              <h3>Mountains - Clouds</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Contact-->
+    <div id="contact" style="position:relative; top: -40px;"></div>
+    <div class="container mt-4 d-flex justify-content-center">
+      <form
+        class="card border-0 contact-form bottom-slide-in"
+        name="contact"
+        method="POST"
+        data-netlify="true"
+      >
+        <div class="card-header fw-bold bg-primary">Contact</div>
+        <div class="card-body">
+          <div class="row mb-3">
+            <div class="col-md">
+              <label for="firstNameInput1" class="form-label w-100"
+                >First Name:
+                <input
+                  type="text"
+                  name="first-name"
+                  class="form-control"
+                  id="nameInput1"
+                  placeholder="John"
+              /></label>
+            </div>
+            <div class="col-md">
+              <label for="lastNameInput1" class="form-label w-100"
+                >Last Name:
+                <input
+                  type="text"
+                  name="last-name"
+                  class="form-control"
+                  id="nameInput2"
+                  placeholder="Doe"
+              /></label>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-md">
+              <label for="emailInput1" class="form-label w-100"
+                >Email address:
+                <input
+                  type="email"
+                  name="email"
+                  class="form-control"
+                  id="emailInput1"
+                  placeholder="sender@company.com"
+              /></label>
+            </div>
+            <div class="col-md">
+              <label for="subjectInput1" class="form-label w-100"
+                >Subject:
+                <input
+                  type="text"
+                  name="subject"
+                  class="form-control"
+                  id="subjectInput1"
+                  placeholder="Your Subject"
+              /></label>
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="emailTextarea1" class="form-label w-100"
+              >Message:
+              <textarea
+                class="form-control"
+                name="message"
+                id="emailTextarea1"
+                rows="10"
+              ></textarea>
+            </label>
+          </div>
+          <div class="mb-3 text-center">
+            <button class="btn btn-secondary text-light fw-bold px-4" type="submit">Send</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <!-- Footer -->
+    <div class="container-fluid ml-0  p-0 mt-4">
+       <div class="card border-start-0 border-end-0 rounded-0 bottom-slide-in">
+           <div class="card-header border-light text-light fw-bold fs-4 w-100 bg-secondary text-center"> 
+                Alberto Moga &#169
+            </div>
+            <div class="card-body bg-secondary fs-1">
+                <div class="col text-center">
+                    <a href="www.linkedin.com/in/alberto-moga-a5a220204" class="text-decoration-none mx-2">
+                        <i class="fab fa-linkedin text-light"></i>
+                    </a>
+                    <a href="https://github.com/moga-alberto" class="text-decoration-none mx-2">
+                        <i class="fab fa-github-square text-light"></i> 
+                    </a>
+                </div>
+            </div>
+           </div>
+       </div>
+    </div>
+
+    <!-- Bootstrap bundle with popper -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js">
+
+    </script>
+  
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
