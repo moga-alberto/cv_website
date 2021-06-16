@@ -27,11 +27,11 @@ function scrollFunction() {
 };
 
 
-window.onresize = () => {
-    window.location.href = '#top';
-    // document.getElementById('top').scrollIntoView();
-    setTimeout(() => {location.reload();}, 1000);
-}
+// window.onresize = () => {
+//     window.location.href = '#top';
+//     // document.getElementById('top').scrollIntoView();
+//     setTimeout(() => {location.reload();}, 1000);
+// }
 
 var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
 var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
