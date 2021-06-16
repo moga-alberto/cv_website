@@ -19,25 +19,23 @@
   <body
     id="body"
     class="bg-secondary"
-    data-bs-spy="scroll"
-    data-bs-target="#navbar"
-    data-bs-offset="5"
-    tabindex="0"
+    
   >
     <!-- Nav -->
     <nav class="navbar d-flex fixed-top navbar-expand bg-secondary" id="navbar">
+      <a href="#" class="nav-link active" id="hidden"></a>
       <div class="container justify-content-center justify-content-lg-end p-0">
         <ul class="nav nav-pills">
-          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link" id="about-l">About</a></li>
           <li class="nav-item">
-            <a href="#portfolio" class="nav-link">Portfolio</a>
+            <a href="#portfolio" class="nav-link" id="portfolio-l">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a href="#experience" class="nav-link">Experience</a>
+            <a href="#experience" class="nav-link" id="experience-l">Experience</a>
           </li>
-          <li class="nav-item"><a href="#goals" class="nav-link">Goals</a></li>
+          <li class="nav-item"><a href="#goals" class="nav-link" id="goals-l">Goals</a></li>
           <li class="nav-item">
-            <a href="#contact" class="nav-link">Contact</a>
+            <a href="#contact" class="nav-link" id="contact-l">Contact</a>
           </li>
         </ul>
       </div>
@@ -399,11 +397,16 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
+                <a
+                class="carousel-image-link"
+                  href="https://moga-alberto.github.io/project6_js_html_css--rock_paper_scissors/"
+                >
                 <img
                   src="./images/jsgame.png"
                   class="d-block w-100 rounded-bottom"
                   alt="..."
                 />
+              </a>
                 <a
                   href="https://moga-alberto.github.io/project6_js_html_css--rock_paper_scissors/"
                 >
@@ -418,11 +421,17 @@
                 </a>
               </div>
               <div class="carousel-item">
+                <a
+                class="carousel-image-link"
+                  href="https://moga-alberto.github.io/quote-generator/"
+                >
+
                 <img
                   src="./images/jsquote.png"
                   class="d-block w-100 rounded-bottom"
                   alt="..."
                 />
+              </a>
                 <a href="https://moga-alberto.github.io/quote-generator/">
                   <div
                     class="carousel-caption d-none d-md-block overlay pb-0 mb-4 fade-in"
@@ -435,11 +444,17 @@
                 </a>
               </div>
               <div class="carousel-item">
+                <a
+                class="carousel-image-link"
+                  href="https://moga-alberto.github.io/stripe-payment-v1/"
+                >
+
                 <img
                   src="./images/ngpayment.png"
                   class="d-block w-100 rounded-bottom"
                   alt="..."
                 />
+              </a>
                 <a href="https://moga-alberto.github.io/stripe-payment-v1/">
                   <div
                     class="carousel-caption d-none d-md-block overlay pb-0 mb-4 fade-in"
@@ -452,11 +467,17 @@
                 </a>
               </div>
               <div class="carousel-item">
+                <a
+                class="carousel-image-link"
+                  href="https://moga-alberto.github.io/colors-galaxy/"
+                >
+
                 <img
                   src="./images/colors.png"
                   class="d-block w-100 rounded-bottom"
                   alt="..."
                 />
+              </a>
                 <a href="https://moga-alberto.github.io/colors-galaxy/">
                   <div
                     class="carousel-caption d-none d-md-block overlay pb-0 mb-4 fade-in"
@@ -469,11 +490,17 @@
                 </a>
               </div>
               <div class="carousel-item">
+                <a
+                class="carousel-image-link"
+                  href="https://moga-alberto.github.io/og-shoes/"
+                >
+
                 <img
                   src="./images/shoes.png"
                   class="d-block w-100 rounded-bottom"
                   alt="..."
                 />
+              </a>
                 <a href="https://moga-alberto.github.io/og-shoes/">
                   <div
                     class="carousel-caption d-none d-md-block overlay pb-0 mb-4 fade-in"
@@ -486,11 +513,17 @@
                 </a>
               </div>
               <div class="carousel-item">
+                <a
+                class="carousel-image-link"
+                  href="https://moga-alberto.github.io/cloudspace/index.html"
+                >
+
                 <img
                   src="./images/cloudspace.png"
                   class="d-block w-100 rounded-bottom"
                   alt="..."
                 />
+              </a>
                 <a href="https://moga-alberto.github.io/cloudspace/index.html">
                   <div
                     class="carousel-caption d-none d-md-block overlay pb-0 mb-4 fade-in"
@@ -584,7 +617,7 @@
     <div id="goals" style="position:relative; top: -40px;"></div>
     <div class="container mt-4">
       <div class="card border-0 fade-in">
-        <div class="card-header fw-bold bg-primary">Goals</div>
+        <div class="card-header fw-bold bg-primary">Goals & Inspiration</div>
         <div class="card-body mt-3">
           <div class="e-cards-container w-100">
             <div
@@ -598,7 +631,7 @@
                 class="carousel-caption d-md-block overlay pb-0 mb-4 fade-in"
               >
                 <h5>Apple</h5>
-                <p>
+                <p class="px-2">
                   Very accessible and good looking simple design. You can find what you need really fast.
                 </p>
               </div>
@@ -615,7 +648,7 @@
                 class="carousel-caption d-md-block overlay pb-0 mb-4 fade-in"
               >
                 <h5>Simply Chocolate</h5>
-                <p>
+                <p class="px-2">
                   Unique design, easy to follow through. It makes you addicted to scrolling and clicking, making the user become involved with the product.
                 </p>
               </div>
@@ -632,7 +665,7 @@
                 class="carousel-caption d-md-block overlay pb-0 mb-4 fade-in"
               >
                 <h5>Airbnb</h5>
-                <p>
+                <p class="px-2">
                   Smart design, carefully tailored for the user experience. Makes traveling to places and finding adventures really easy.
                 </p>
               </div>
@@ -649,7 +682,7 @@
                 class="carousel-caption d-md-block overlay pb-0 mb-4 fade-in"
               >
                 <h5>Khan Academy</h5>
-                <p>
+                <p class="px-2">
                   Accessible website, with a pleasant interface. Every course is two clicks away.
                 </p>
               </div>
@@ -666,7 +699,7 @@
                 class="carousel-caption d-md-block overlay pb-0 mb-4 fade-in"
               >
                 <h5>Nike</h5>
-                <p>
+                <p class="px-2">
                   Fast interface, with smooth animations. Products are displayed in a way that gives perspective. 
                 </p>
               </div>

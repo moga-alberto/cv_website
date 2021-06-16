@@ -10893,6 +10893,11 @@ body {
     width: 100%;
   }
 }
+@media (min-width: 768px) {
+  .carousel-image-link {
+    pointer-events: none;
+  }
+}
 @media (max-width: 550px) {
   .navbar {
     visibility: hidden;
