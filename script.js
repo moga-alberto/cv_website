@@ -28,7 +28,8 @@ function scrollFunction() {
 
 
 window.onresize = () => {
-    document.getElementById('top').scrollIntoView();
+    window.location.href = '#top';
+    // document.getElementById('top').scrollIntoView();
     setTimeout(() => {location.reload();}, 1000);
 }
 

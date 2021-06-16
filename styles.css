@@ -10799,7 +10799,7 @@ body {
 }
 
 .btn:hover {
-  transform: scale(0.95);
+  transform: scale(0.97);
   transition: transform 0.2s ease-in-out, background-color 0.2s linear;
 }
 
@@ -10832,13 +10832,31 @@ body {
   opacity: 0;
 }
 
+.panel a {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in 0.4s, visibility 0.6s linear;
+}
+
 .panel.active {
   flex: 5;
+  cursor: default;
 }
 
 .panel.active h3, .panel.active .h3 {
   opacity: 1;
   transition: opacity 0.3s ease-in 0.4s;
+  visibility: visible;
+}
+
+.panel.active a {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.3s ease-in 0.4s, visibility 0.1s linear;
+}
+
+.card.hover-tr {
+  cursor: pointer;
 }
 
 .contact-form {
@@ -10863,11 +10881,11 @@ body {
   }
 
   .panel.active {
-    background-size: 100% 100%;
+    background-size: cover;
   }
 
   .panel {
-    background-size: 100% auto;
+    background-size: cover;
   }
 
   .contact-form {
@@ -11012,19 +11030,19 @@ body {
 }
 
 .left-slide-in {
-  animation: slideInFromLeft 0.8s ease-in-out;
+  animation: slideInFromLeft 1s ease-in-out;
 }
 
 .right-slide-in {
-  animation: slideInFromRight 0.8s ease-in-out;
+  animation: slideInFromRight 1s ease-in-out;
 }
 
 .right-slide-in-tr {
-  transition: slideInFromRight 0.8s ease-in-out;
+  transition: slideInFromRight 1s ease-in-out;
 }
 
 .bottom-slide-in {
-  animation: slideInFromBottom 0.8s ease-in-out;
+  animation: slideInFromBottom 1s ease-in-out;
 }
 
 .hover-tr:hover {
@@ -11050,6 +11068,10 @@ body {
 .hover-tr:hover .text-muted {
   opacity: 1;
   transition: opacity 0.3s linear;
+}
+
+.text-muted {
+  color: #fff !important;
 }
 
 /*# sourceMappingURL=styles.css.map */
