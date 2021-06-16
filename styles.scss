@@ -19,14 +19,9 @@ $tooltip-opacity: 1;
 body {
   font-family: 'Roboto', sans-serif;
   position: relative;
-  /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; */
   height: 100vh;
   width: 100vw;
   margin: 0;
-  // background-color: #6c757d;
   overflow-y: scroll;
   overflow-x: hidden;
 }
@@ -35,9 +30,12 @@ body {
   padding-top: 6rem;
   position: relative;
   // margin-top: 10em;
-  background-image: url('./images/hero.bmp');
+  background-image: url('./images/hero.jpeg'), radial-gradient( rgba(164, 57, 49, 0.75), rgba(28, 66, 79, 0.5));
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: rgba(51, 51, 51, 0);
+  background-blend-mode: multiply;
   width: 100%;
   /* height: 40%; */
 }
@@ -66,12 +64,15 @@ body {
 
 .nav-link {
   transition: transform 0.2s ease-in-out, background-color 0.3s linear;
+  color: rgb(214, 233, 250);
 }
 .nav-link.active {
   transition: background-color 0.3s linear;
+  color: aliceblue !important;
+
 }
 .nav-link:hover {
-  color: aliceblue;
+  color: aliceblue !important;
   transform: scale(0.95);
   transition: transform 0.2s ease-in-out, background-color 0.3s linear;
 }
