@@ -10896,6 +10896,7 @@ body {
 @media (min-width: 768px) {
   .carousel-image-link {
     pointer-events: none;
+    cursor: default;
   }
 }
 @media (max-width: 550px) {
