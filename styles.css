@@ -10757,6 +10757,10 @@ body {
   /* height: 40%; */
 }
 
+.hero-btn {
+  max-width: max-content !important;
+}
+
 .portrait {
   border-radius: 50%;
   max-height: 15vh;
