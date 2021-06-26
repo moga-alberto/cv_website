@@ -10759,6 +10759,7 @@ body {
 
 .hero-btn {
   max-width: max-content !important;
+  align-self: center !important;
 }
 
 .portrait {

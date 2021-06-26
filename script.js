@@ -2,6 +2,7 @@
 const panels = document.querySelectorAll('.panel');
 const goToTopButton = document.getElementById('go-to-top');
 const body = document.getElementById('body');
+const interval = document.getElementById('interval');
 let width = 0;
 
 panels.forEach((panel) => {
