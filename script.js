@@ -36,7 +36,7 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
     return new bootstrap.Tooltip(tooltipTriggerEl)
 })
 
-const scrollSpy = (width) => {
+const scrollAgent = (width) => {
     const elem = document.querySelector('.nav-link.active');
     const hidden = document.querySelector('#hidden');
     const about = document.querySelector('#about-l');
@@ -189,9 +189,6 @@ const scrollSpy = (width) => {
             break;
 
     }
-    // if((elem && window.innerWidth < 960 && scrollPos) || elem) {
-    //     elem.classList.remove('active');
-    // }
 };
 
-window.addEventListener('scroll', scrollSpy);
+window.addEventListener('scroll', scrollAgent);
